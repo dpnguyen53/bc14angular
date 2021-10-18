@@ -1,0 +1,19 @@
+.contents {
+  display: flex;
+
+  .content {
+    width: 70%;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+  }
+
+  .sidebar {
+    width: 30%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+  }
+}

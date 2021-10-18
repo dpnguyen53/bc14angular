@@ -1,3 +1,5 @@
+Link repo: https://github.com/dpnguyen53/bc14angular
+
 ======= Buoi 1 =======
 * Component
     - lệnh tạo: ng g c "Ten Component"
@@ -6,3 +8,10 @@
     - lệnh tạo: ng g m "Ten Module"
     - lệnh tạo: ng g c "Ten Component" --module="Ten folder"
         => Tạo component bỏ vào module mong muốn
+
+* DataBinding
+    - OnewayBinding
+        + Interpolation
+        + PropertyBinding
+        + EventBinding
+    - TwowayBinding
