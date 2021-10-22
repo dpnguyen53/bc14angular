@@ -9,9 +9,21 @@ Link repo: https://github.com/dpnguyen53/bc14angular
     - lệnh tạo: ng g c "Ten Component" --module="Ten folder"
         => Tạo component bỏ vào module mong muốn
 
+======= Buoi 2 =======
 * DataBinding
     - OnewayBinding
-        + Interpolation
-        + PropertyBinding
-        + EventBinding
-    - TwowayBinding
+        + Interpolation: {{}}
+        + PropertyBinding: []
+        + EventBinding: ()
+    - TwowayBinding: [()]
+
+* Directive
+        + Component
+        + structural directive
+            + ngIf
+            + ngSwitch
+            + ngFor
+        + attribute directive
+            + ngClass
+            + ngStyle
+            + attribute directive (tự định nghĩa)

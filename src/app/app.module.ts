@@ -11,6 +11,7 @@ import { Baitap1FooterComponent } from './baitap1/baitap1-footer/baitap1-footer.
 import { Baitap2Module } from './baitap2/baitap2.module';
 import { Baitap3Module } from './baitap3/baitap3.module';
 import { DataBindingModule } from './data-binding/data-binding.module';
+import { StructuralDirectiveModule } from './structural-directive/structural-directive.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,13 @@ import { DataBindingModule } from './data-binding/data-binding.module';
     Baitap1SidebarComponent,
     Baitap1FooterComponent,
   ],
-  imports: [BrowserModule, Baitap2Module, Baitap3Module, DataBindingModule],
+  imports: [
+    BrowserModule,
+    Baitap2Module,
+    Baitap3Module,
+    DataBindingModule,
+    StructuralDirectiveModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
