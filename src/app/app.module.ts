@@ -14,6 +14,14 @@ import { DataBindingModule } from './data-binding/data-binding.module';
 import { StructuralDirectiveModule } from './structural-directive/structural-directive.module';
 import { AttributeDirectiveModule } from './attribute-directive/attribute-directive.module';
 import { InteractionModule } from './interaction/interaction.module';
+import { BookingBusModule } from './booking-bus/booking-bus.module';
+import { HomeTemplateComponent } from './pages/home-template/home-template.component';
+import { AdminTemplateComponent } from './pages/admin-template/admin-template.component';
+import { AppRoutingModule } from './app-routing.module';
+import { HomeComponent } from './pages/home-template/home/home.component';
+import { AboutComponent } from './pages/home-template/about/about.component';
+import { ListCourseComponent } from './pages/home-template/list-course/list-course.component';
+import { NavbarComponent } from './pages/home-template/_components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +31,12 @@ import { InteractionModule } from './interaction/interaction.module';
     Baitap1ContentComponent,
     Baitap1SidebarComponent,
     Baitap1FooterComponent,
+    HomeTemplateComponent,
+    AdminTemplateComponent,
+    HomeComponent,
+    AboutComponent,
+    ListCourseComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,6 +46,8 @@ import { InteractionModule } from './interaction/interaction.module';
     StructuralDirectiveModule,
     AttributeDirectiveModule,
     InteractionModule,
+    BookingBusModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

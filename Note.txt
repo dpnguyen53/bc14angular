@@ -34,3 +34,11 @@ Link repo: https://github.com/dpnguyen53/bc14angular
         + Output: truyền dữ liệu từ component con => component cha
         + ViewChild: Dom Component
         + ViewChildren: Dom nhiều Component
+
+======= Buoi 4 =======
+    - exercise
+    - Routing:
+        + Routing Component
+        + Routing Module
+    - Service
+    - Angular Material

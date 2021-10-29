@@ -1,0 +1,8 @@
+<button
+  class="btn seat"
+  [ngClass]="{ selectSeat: status, bookSeat: seat.TrangThai }"
+  (click)="selectSeat()"
+  [disabled]="seat.TrangThai"
+>
+  {{ seat.SoGhe }}
+</button>

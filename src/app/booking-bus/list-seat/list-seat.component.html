@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <ng-container *ngFor="let seat of listSeat; let index = index">
+        <app-seat [seat]="seat" (eventSeat)="selectSeat($event)"></app-seat>
+        <br *ngIf="(index + 1) % 4 === 0" />
+      </ng-container>
+    </div>
+    <div class="col-md-6">
+      <h3>Danh sach ghe dang chon</h3>
+      <div *ngFor="let seat of listSelectSeat; let index = index">
+        Ghế: {{ seat.TenGhe }} - ${{ seat.Gia }}
+        <span class="text-danger" (click)="cancle(index, seat)">[Huỷ]</span> 
+      </div>
+    </div>
+  </div>
+</div>
